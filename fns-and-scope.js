@@ -11,6 +11,9 @@ function isTyler(name) {
     }
     return false;
 }
+
+//G: Perfecto;
+
 //////////////////PROBLEM 2////////////////////
 
 
@@ -22,6 +25,9 @@ function getName(name){
   name = prompt("What is you name?");
   return name;
 }
+
+//G: You could simplify this a little by just returning the prompt. 
+//G: So: return prompt("What is your name?");
 
 //////////////////PROBLEM 3////////////////////
 
@@ -36,6 +42,8 @@ function welcome(){
  alert("Welcome, " + name)
 }
 
+//G: Perfecto;
+
 //////////////////PROBLEM 4////////////////////
 
 
@@ -46,6 +54,8 @@ function welcome(){
   //Answer Here
 //Parameter are the variables passed into a function while defining it.
 //Arguments are the variables given during the call or invocation.
+
+//G: Nailed it.
 
 //////////////////PROBLEM 5////////////////////
 
@@ -62,6 +72,7 @@ function welcome(){
 //""
 //NaN
 
+//G: Perfecto.
 
 
 //////////////////PROBLEM 6////////////////////
@@ -74,7 +85,7 @@ function welcome(){
 function myName() {
   return "Trent";
 }
-
+//G: Perfecto.
 
 //Now save the function definition of myName into a new variable called newMyName
 
@@ -83,7 +94,7 @@ var newMyName = myName;
 //Now alert the result of invoking newMyName
 
 alert(newMyName());
-
+//G: Perfecto.
 //////////////////PROBLEM 7////////////////////
 
 
@@ -96,9 +107,13 @@ function outerFn(){
     return "Trent";
   }
 }
+//G: Perfecto.
+
 //Now save the result of invoking outerFn into a variable called innerFn.
 var innerFn = outerFn();
   //Code Here
 
 //Now invoke innerFn.
 innerFn();
+
+//G: Perfect. You crushed it. Nice work.
